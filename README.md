@@ -1,5 +1,7 @@
 # HelloWorldWide GO Pack
 
+![image](https://github.com/Szym0nion/HelloWorldWide-Go/assets/110334194/c559f7b0-5a6c-4c1b-97bd-6ad492238ed5)
+
 As the name suggests, the package has a function that will tell you how to say hello in any language. Here's the list of features:
 
 Afrikaans - **AF**,
