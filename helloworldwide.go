@@ -258,7 +258,7 @@ func KN() {
 }
 
 //Catalan
-func Ca() {
+func CA() {
 	fmt.Println("Hola !")
 }
 
