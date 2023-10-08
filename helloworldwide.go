@@ -221,3 +221,18 @@ func IL() {
 func ID() {
 	fmt.Println("Halo !")
 }
+
+//Irish
+func GA() {
+	fmt.Println("Dia dhuit !")
+}
+
+//Icelandic
+func IS() {
+	fmt.Println("Halló !")
+}
+
+//Japanese
+func JPN() {
+	fmt.Println("こんにちは !")
+}
