@@ -1,5 +1,29 @@
 # HelloWorldWide GO Pack
 
+## Getting started with third party packages
+**To initialize a module and pass in a fully-qualified name for your own package. If you wanted to host your module on GitHub under your username “pikachu”, you could initialize your module like this:**
+## `go mod init github.com/pikachu/yourepositoryname`
+**This creates a file called go.mod. Let’s look at that file:**
+## `cat go.mod`
+**Output**:
+
+_module github.com/piakchu/yourepositoryname_
+
+_go 1.21.2_
+
+**Now use the go get command to download the third-party UUID module:**
+## `go get github.com/Szym0nion/HelloWorldWide-Go`
+**Now look again at your own go.mod file:**
+## `cat go.mod`
+**Output**:
+_module github.com/pikachu/yourepositoryname_
+
+_go 1.21.2_
+
+_require github.com/Szym0nion/HelloWorldWide-Go_ 
+
+**Write a short code and check if the function works correctly (e.g. in the photo below). To run the program:**
+## `go run main.go`
 ![image](https://github.com/Szym0nion/HelloWorldWide-Go/assets/110334194/c559f7b0-5a6c-4c1b-97bd-6ad492238ed5)
 
 As the name suggests, the package has a function that will tell you how to say hello in any language. Here's the list of features:
